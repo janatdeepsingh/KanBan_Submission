@@ -17,7 +17,7 @@ const Navbar = ({setOrderFunc,setGroupFunc,group,order}) => {
     return (
         <nav style={{backgroundColor:"white"}}>
         <div style={{ position: 'relative', display: 'inline-block' }}>
-            <button onClick={toggleDropdown} style={{ margin:"5px",padding: '5px', cursor: 'pointer',backgroundColor:"white",borderRadius:"5%",borderWidth:"0.5px" }}>
+            <button onClick={toggleDropdown} style={{ margin:"5px",padding: '5px', cursor: 'pointer',backgroundColor:"white",borderRadius:"10%",borderWidth:"0.5px" }}>
                 <div style={{display:"flex", justifyContent:"space-around",alignItems:"center", padding:"2px"}}><img src={Dropdown} style={{marginRight:"10px"}}/>Display <img src={Downarror} style={{marginLeft:"10px"}}/></div>
             </button>
 
